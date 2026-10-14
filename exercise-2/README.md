@@ -21,11 +21,10 @@ DevOps-Assignment/
 ├── Dockerfile
 ├── flask-deployment.yaml
 ├── README.md
-└── images/
-    ├── 01-minikube.png
-    ├── 02-deployment-pods.png
-    ├── 03-flask-logs.png
-    └── 04-service.png
+├── 01-minikube.png
+├── 02-deployment-pods.png
+├── 03-flask-logs.png
+└── 04-service.png
 ```
 
 ## 1. Start Minikube
@@ -39,7 +38,7 @@ kubectl cluster-info
 kubectl get nodes
 ```
 
-![Minikube Status](images/01-minikube.png)
+![Minikube Status](01-minikube.png)
 
 ## 2. Flask Application
 
@@ -64,7 +63,7 @@ kubectl apply -f flask-deployment.yaml
 
 The Deployment creates one replica of the Flask application.
 
-![Deployment and Pods](images/02-deployment-pods.png)
+![Deployment and Pods](02-deployment-pods.png)
 
 ## 4. Application Logs
 
@@ -76,7 +75,7 @@ kubectl logs <pod-name>
 
 The logs confirm that Flask is running on port **15000**.
 
-![Flask Application Logs](images/03-flask-logs.png)
+![Flask Application Logs](03-flask-logs.png)
 
 ## 5. Kubernetes Service
 
@@ -108,7 +107,7 @@ Output:
 Hello from Flask on Kubernetes!
 ```
 
-![Final Flask Application Result](images/04-service.png)
+![Final Flask Application Result](04-service.png)
 
 ## Conclusion
 
