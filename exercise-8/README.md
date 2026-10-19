@@ -29,19 +29,19 @@ Create and run a Jenkins Freestyle job that retrieves a shell script from GitHub
 ## Screenshots
 
 ### 1. Script created in VS Code
-![Screenshot 1 — Script created in VS Code](images/1.png)
+![Screenshot 1 — Script created in VS Code](images/1(2).png)
 
 ### 2. Script available on GitHub
-![Screenshot 2 — Script available on GitHub](images/2.png)
+![Screenshot 2 — Script available on GitHub](images/2(2).png)
 
 ### 3. Jenkins job configuration
-![Screenshot 3 — Jenkins job configuration](images/3.png)
+![Screenshot 3 — Jenkins job configuration](images/3(2).png)
 
 ### 4. Git and build-step configuration
-![Screenshot 4 — Git and build-step configuration](images/4.png)
+![Screenshot 4 — Git and build-step configuration](images/4(2).png)
 
 ### 5. Successful Jenkins build
-![Screenshot 5 — Console output showing Hello, Jenkins! and Finished: SUCCESS](images/5.png)
+![Screenshot 5 — Console output showing Hello, Jenkins! and Finished: SUCCESS](images/5(1).png)
 
 ## Result
 The Jenkins job executed the script and printed `Hello, Jenkins!`. The build completed successfully (`Finished: SUCCESS`).
